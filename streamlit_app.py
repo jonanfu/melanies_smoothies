@@ -32,7 +32,7 @@ ingredients_list = st.multiselect(
 
 time_to_insert = st.button('Submit orders')
 
-if time_to_insert:
+if ingredients_list :
     ingredients_string = ''
 
     for fruit_chosen in ingredients_list:
